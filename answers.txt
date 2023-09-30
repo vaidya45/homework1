@@ -8,3 +8,7 @@ master branch leading to a linear commit history.
 
 In general, it is better to use merge because rebase destroys the original
 commit history from the master branch.
+What is a remote repository?
+
+Remote repository is a version of our code base that is hosted 
+on a server which can be used to manage changes.
