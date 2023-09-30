@@ -1,0 +1,10 @@
+What is the difference between a merge and a rebase?
+
+When we merge a branch, all the commits from the branch are maintained
+and then a final commit is added to the master branch.
+
+When rebasing, the commits from the other branch are rebased onto the 
+master branch leading to a linear commit history.
+
+In general, it is better to use merge because rebase destroys the original
+commit history from the master branch.
